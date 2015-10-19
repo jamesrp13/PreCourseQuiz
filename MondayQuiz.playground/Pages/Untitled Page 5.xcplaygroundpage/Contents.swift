@@ -4,7 +4,7 @@ import Foundation
 
 
 //Enter your name
-var name = ""
+var name = "James Pacheco"
 
 
 

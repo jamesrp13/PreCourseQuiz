@@ -10,6 +10,18 @@ Don't forget to call the function at the bottom
 
 import Foundation
 
+var isCoding = true
+
+func wiredIn(wired: Bool) {
+    if wired == true {
+        print("Don't bug me!")
+    } else {
+        print("What's up?")
+    }
+}
+
+wiredIn(isCoding)
+
 
 //: [Previous](@previous)
 //: [Next](@next)

@@ -12,7 +12,17 @@ Don't forget to call the function at the bottom
 
 import Foundation
 
+var ages = ["James": 25, "Jodie": 25, "Seth": 22, "Cyd": 20, "Becca": 29]
 
+func older(dictionary: [String: Int]) -> [String: Int] {
+    var olderDictionary: [String: Int] = [:]
+    for (name, age) in dictionary{
+        olderDictionary[name] = age + 1
+    }
+    return olderDictionary
+}
+
+older(ages)
 
 //: [Previous](@previous)
 //: [Next](@next)
